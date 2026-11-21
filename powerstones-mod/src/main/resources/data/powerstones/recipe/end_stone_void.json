@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:end_stone",
+    "minecraft:end_stone",
+    "minecraft:end_stone",
+    "minecraft:end_stone",
+    "minecraft:ender_pearl"
+  ],
+  "result": {
+    "id": "powerstones:end_stone_void",
+    "count": 1
+  }
+}

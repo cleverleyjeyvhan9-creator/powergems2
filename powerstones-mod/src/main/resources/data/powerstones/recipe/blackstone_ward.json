@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:blackstone",
+    "minecraft:blackstone",
+    "minecraft:blackstone",
+    "minecraft:blackstone",
+    "minecraft:iron_ingot"
+  ],
+  "result": {
+    "id": "powerstones:blackstone_ward",
+    "count": 1
+  }
+}

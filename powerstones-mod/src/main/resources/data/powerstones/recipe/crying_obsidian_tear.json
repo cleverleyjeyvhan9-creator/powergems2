@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:crying_obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:obsidian"
+  ],
+  "result": {
+    "id": "powerstones:crying_obsidian_tear",
+    "count": 1
+  }
+}

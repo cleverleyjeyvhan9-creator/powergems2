@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:magma_block",
+    "minecraft:magma_block",
+    "minecraft:blaze_powder"
+  ],
+  "result": {
+    "id": "powerstones:magma_fury",
+    "count": 1
+  }
+}

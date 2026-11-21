@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LBL",
+    "BEB",
+    "LBL"
+  ],
+  "key": {
+    "L": "minecraft:lapis_lazuli",
+    "B": "minecraft:lapis_block",
+    "E": "minecraft:enchanted_book"
+  },
+  "result": {
+    "id": "powerstones:lapis_mind",
+    "count": 1
+  }
+}

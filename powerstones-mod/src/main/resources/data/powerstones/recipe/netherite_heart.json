@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:netherite_scrap",
+    "minecraft:netherite_scrap",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "id": "powerstones:netherite_heart",
+    "count": 1
+  }
+}
