@@ -14,8 +14,12 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: "9.2.1"
-      - run: gradle build
+      - name: Ekstrak zip dan build
+        run: |
+          unzip -q '*.zip'
+          cd "$(dirname "$(find . -name build.gradle -not -path './.git/*' | head -n 1)")"
+          gradle build
       - uses: actions/upload-artifact@v4
         with:
           name: powerstones-jar
-          path: build/libs/*.jar
+          path: "**/build/libs/*.jar"
